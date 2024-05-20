@@ -350,3 +350,40 @@
   animation: moveLeopard 6s ease-in-out;
 
 }
+
+.infoHelp img{
+  width: auto;
+  max-width: 1300px;
+
+  height: 500px;
+}
+.helpInfo {
+  text-align: center; /* Center-aligns the child elements horizontally */
+}
+.helpInfo a{
+  background-color: #000000;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 20px; /* Centers the info box horizontally */
+  color:#e4e4e4;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  height: auto;
+  border-color: white;
+  border-style: solid; 
+  border-radius: 5px;
+}
+.infoHelp {
+  background-color: #000000;
+  margin: 0 auto; /* Centers the info box horizontally */
+  margin-top: 30px;
+  text-align: center; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  max-width: 1400px; 
+  padding: 10px;
+  height: auto;
+  border-color: white;
+  border-style: solid; 
+  border-radius: 5px;
+}
